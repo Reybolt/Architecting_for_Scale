@@ -63,3 +63,45 @@ We can't test everything but we can deliver with some things in mind:
 When the system fails it often could have been identified through risk management
 
 > Example: T-shirt website. Uses third party search engine. Risk management says it could fail. When it does, load up the most popular t-shirts we have to the list instead. If user can't find what they're looking for, then give them a 10% coupon on the page. Expect failure but handle it when it does.
+
+> SolarAnalytics Workshop: How should we handle the case where users don't have data?
+
+## Focus #4: Monitor Availability
+
+You can't know if there is a problem in your application unless you can see there is a problem.
+
+* Server Monitoring
+    * To monitor the health of your servers.
+* Configuration change monitoring
+    * To monitor your system configuration to identify if and when changes to your infrastructure impact your application.
+* Application performance monitoring
+    * To look inside your application and services to make sure they are operating as expected.
+* Synthetic Testing
+    * Examine in real time how yur application is functioning from the perspective of your users
+* Alerting
+    * Inform appropriate personnel
+
+## Focus # 5: Respond to Availability Issues in a Predictable and Defined Way
+
+* Need to action when alerts are raised.
+* Good to have a manual for everyone to follow when a developer sees an issue.
+    > SA Dev have done this!!
+* Let the corresponding people and teams know what happened since it may affect their responsibilities and services.
+
+# Chapter 3: Measuring Availability
+
+> Site availability percentage: = (total_seconds_in_period - seonds_system_is_down)/ total_seconds_in_period
+
+The Nines
+
+* 2 Nines: 99%: 432 min
+* 3 Nines: 99.9%: 43min
+* 4 Nines: 99.99%: 4min
+* 5 Nines: 99.999%: 26 sec
+* 6 Nines: 99.9999%: 2.6 sec
+
+# Chapter 4: Improving your availability when it slips
+
+
+# Part 1: Risk Management
+
